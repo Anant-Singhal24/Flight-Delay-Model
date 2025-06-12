@@ -8,9 +8,9 @@ Welcome to **Flight Delay Prediction**, a data-driven project harnessing the pow
 
 This project is designed to revolutionize air travel through predictive analytics. By leveraging advanced machine learning models, we aim to:
 
-- Predict significant flight delays with high accuracy  
-- Estimate delay durations for better planning  
-- Identify key factors driving delays to enable proactive solutions  
+- Predict significant flight delays with high accuracy
+- Estimate delay durations for better planning
+- Identify key factors driving delays to enable proactive solutions
 
 ---
 
@@ -18,32 +18,32 @@ This project is designed to revolutionize air travel through predictive analytic
 
 ### 📊 Data Preparation
 
-- **Cleaned and Structured Dataset**: Includes carrier details, airport data, delay types, and durations.  
-- **Weighted Analysis**: Focused on controllable delays for actionable insights.  
+- **Cleaned and Structured Dataset**: Includes carrier details, airport data, delay types, and durations.
+- **Weighted Analysis**: Focused on controllable delays for actionable insights.
 
 ### 🔍 Exploratory Data Analysis (EDA)
 
 Our in-depth analysis uncovered critical trends in flight delays:
 
-- **Seasonal Patterns**: Rainy months (July-August) show 24% higher delay rates due to weather conditions.  
-- **Carrier Performance**: Delay durations vary significantly, ranging from 15–45 minutes on average.  
-- **Airport Congestion**: The top 5 airports contribute to 30% of all delays.  
+- **Seasonal Patterns**: Rainy months (July-August) show 24% higher delay rates due to weather conditions.
+- **Carrier Performance**: Delay durations vary significantly, ranging from 15–45 minutes on average.
+- **Airport Congestion**: The top 5 airports contribute to 30% of all delays.
 
 ### 📌 Primary Delay Causes
 
-- Late Aircraft  
-- Carrier Issues  
-- National Air System  
-- Weather  
-- Security  
+- Late Aircraft
+- Carrier Issues
+- National Air System
+- Weather
+- Security
 
 ---
 
 ## 🤖 Modeling Strategy
 
-- **Regression Models**: Built to predict delay duration per flight.  
-- **Models Compared**: Linear Regression, Random Forest, and Gradient Boosting.  
-- **Interpretability**: Utilized SHAP values to analyze feature importance.  
+- **Regression Models**: Built to predict delay duration per flight.
+- **Models Compared**: Linear Regression, Random Forest, and Gradient Boosting.
+- **Interpretability**: Utilized SHAP values to analyze feature importance.
 
 ---
 
@@ -53,34 +53,40 @@ Our in-depth analysis uncovered critical trends in flight delays:
 
 Predicts if over 20% of flights for a carrier-airport pair will face significant delays.
 
-- **Accuracy**: 96.32%  
-- **Precision**: 99.48%  
-- **Recall**: 90.42%  
-- **F1-Score**: 94.74%  
+- **Accuracy**: 97.88%
+- **Precision**: 96.27%
+- **Recall**: 98.00%
+- **F1-Score**: 97.13%
 
 ### Gradient Boosting Regression
 
+Accurately predicts total number of flight delayed.
+
+- **MAE**: 2.24 flights
+- **RMSE**: 7.23 flights
+- **R² Score**: 0.9980
+
 Accurately predicts total delayed flight minutes.
 
-- **MAE**: 641.82  
-- **RMSE**: 1879.13  
-- **R² Score**: 0.9733  
+- **MAE**: 641.82 minutes
+- **RMSE**: 1879.13 minutes
+- **R² Score**: 0.9733
 
-**Per-Flight Prediction**:
+**Per-Flight Prediction(Avg delay in flight)**:
 
-- **MAE**: 2.44 minutes per flight  
-- **RMSE**: 6.08 minutes per flight  
-- **R² Score**: 0.9735  
+- **MAE**: 2.44 minutes per flight
+- **RMSE**: 6.08 minutes per flight
+- **R² Score**: 0.9735
 
 ---
 
 ## 🔑 Key Predictive Factors
 
-- Late Aircraft Delay: 2.7x weight  
-- Carrier Operations: 2.1x weight  
-- Airport Congestion: 1.8x weight  
-- Weather Conditions: 1.5x weight  
-- Month/Season: 1.3x weight  
+- Late Aircraft Delay: 2.7x weight
+- Carrier Operations: 2.1x weight
+- Airport Congestion: 1.8x weight
+- Weather Conditions: 1.5x weight
+- Month/Season: 1.3x weight
 
 ---
 
@@ -88,27 +94,27 @@ Accurately predicts total delayed flight minutes.
 
 ### 🕒 Schedule Optimization
 
-- Add 15-minute buffer periods for high-risk routes to achieve a 12% delay reduction.  
-- Adjust winter schedules with 8% longer connection times to reduce missed connections by 20%.  
+- Add 15-minute buffer periods for high-risk routes to achieve a 12% delay reduction.
+- Adjust winter schedules with 8% longer connection times to reduce missed connections by 20%.
 
 ### 🛠️ Resource Management
 
-- Implement dynamic crew scheduling based on predictive delay factors.  
-- Strategically position maintenance staff at major hubs during peak hours.  
+- Implement dynamic crew scheduling based on predictive delay factors.
+- Strategically position maintenance staff at major hubs during peak hours.
 
 ### 📢 Communication Strategy
 
-- Develop an early notification system triggered by model predictions.  
-- Offer automated rebooking options for passengers on high-risk flights.  
+- Develop an early notification system triggered by model predictions.
+- Offer automated rebooking options for passengers on high-risk flights.
 
 ---
 
 ## 📅 Next Steps
 
-- **Detailed Methodology**: Explore our data preparation and modeling techniques.  
-- **Complete EDA Results**: Dive into comprehensive findings from our analysis.  
-- **Model Comparison Details**: Review the performance of all models evaluated.  
-- **Implementation Roadmap**: Learn how to integrate these solutions into operations.  
+- **Detailed Methodology**: Explore our data preparation and modeling techniques.
+- **Complete EDA Results**: Dive into comprehensive findings from our analysis.
+- **Model Comparison Details**: Review the performance of all models evaluated.
+- **Implementation Roadmap**: Learn how to integrate these solutions into operations.
 
 ---
 
@@ -122,11 +128,11 @@ Accurately predicts total delayed flight minutes.
 
 We welcome contributions to enhance this project! To contribute:
 
-1. Fork the repository  
-2. Create a new branch (`git checkout -b feature/your-feature`)  
-3. Make your changes and commit (`git commit -m "Add your feature"`)  
-4. Push to your branch (`git push origin feature/your-feature`)  
-5. Open a Pull Request  
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Make your changes and commit (`git commit -m "Add your feature"`)
+4. Push to your branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
 ---
 
