@@ -82,7 +82,7 @@ Accurately predicts total delayed flight minutes.
 
 ## 🔑 Key Predictive Factors
 
-- Late Aircraft Delay: 2.7x weight
+- Late Aircraft Delay: 2.7x weight 
 - Carrier Operations: 2.1x weight
 - Airport Congestion: 1.8x weight
 - Weather Conditions: 1.5x weight
